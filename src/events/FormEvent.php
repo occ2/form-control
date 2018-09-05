@@ -23,11 +23,11 @@
  * THE SOFTWARE.
  */
 
-namespace app\Base\controls\FormControl\events;
+namespace occ2\FormControl\events;
 
-use app\Base\controls\Control\ControlEventData as BaseEvent;
+use occ2\control\ControlEventData as BaseEvent;
+use occ2\FormControl\FormControl;
 use Nette\Forms\Container as Form;
-use app\Base\controls\FormControl\FormControl;
 use Nette\Utils\ArrayHash;
 use Nette\Application\UI\Presenter;
 use Nette\Application\InvalidPresenterException;
@@ -47,7 +47,7 @@ class FormEvent extends BaseEvent
     private $event;
 
     /**
-     * @var \Nette\Forms\Container
+     * @var Form
      */
     private $form;
 

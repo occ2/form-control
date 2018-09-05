@@ -23,11 +23,11 @@
  * THE SOFTWARE.
  */
 
-namespace app\Base\controls\FormControl\configurators;
+namespace occ2\FormControl\configurators;
 
-use app\Base\controls\Control\IConfigurator;
-use app\Base\controls\FormControl\exceptions\FormBuilderException;
-use app\Base\controls\FormControl\FormControl;
+use occ2\control\IConfigurator;
+use occ2\FormControl\exceptions\FormBuilderException;
+use occ2\FormControl\FormControl;
 use Nette\Caching\Cache;
 use Nette\Reflection\ClassType;
 use Nette\Reflection\Property;

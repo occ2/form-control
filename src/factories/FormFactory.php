@@ -23,9 +23,9 @@
  * THE SOFTWARE.
  */
 
-namespace app\Base\controls\FormControl\factories;
+namespace occ2\FormControl\factories;
 
-use app\Base\controls\FormControl\interfaces\IFormFactory;
+use occ2\FormControl\interfaces\IFormFactory;
 use AlesWita\FormRenderer\Factory;
 
 /**

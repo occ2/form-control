@@ -12,6 +12,7 @@
         "nette/di": "dev-master",
         "contributte/cache": "dev-master",
         "occ2/flashes": "dev-master",
-        "occ2/control": "dev-master"
+        "occ2/control": "dev-master",
+        "aleswita/formrenderer": "1.3"
     }
 }

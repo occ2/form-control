@@ -23,9 +23,9 @@
  * THE SOFTWARE.
  */
 
-namespace app\Base\controls\FormControl\interfaces;
+namespace occ2\FormControl\interfaces;
 
-use app\Base\controls\FormControl\FormControl;
+use occ2\FormControl\FormControl;
 use Nette\Application\UI\Presenter;
 
 /**

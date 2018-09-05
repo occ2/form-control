@@ -23,11 +23,11 @@
  * THE SOFTWARE.
  */
 
-namespace app\Base\controls\FormControl\builders;
+namespace occ2\FormControl\builders;
 
-use app\Base\controls\FormControl\exceptions\FormBuilderException;
-use app\Base\controls\FormControl\configurators\FormItemConfig;
-use app\Base\controls\FormControl\FormControl;
+use occ2\FormControl\exceptions\FormBuilderException;
+use occ2\FormControl\configurators\FormItemConfig;
+use occ2\FormControl\FormControl;
 use Nette\Application\UI\Form;
 use Nette\Reflection\ClassType;
 use Nette\Reflection\Property;
@@ -35,7 +35,7 @@ use Nette\Utils\Strings;
 use Nette\Utils\Html;
 use Nette\Forms\Controls\TextBase;
 use Nette\Forms\Controls\BaseControl;
-use Kdyby\Translation\ITranslator;
+use Nette\Localization\ITranslator;
 
 /**
  * EntityFormBuilder

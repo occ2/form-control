@@ -23,10 +23,10 @@
  * THE SOFTWARE.
  */
 
-namespace app\Base\controls\FormControl\builders;
+namespace occ2\FormControl\builders;
 
+use occ2\FormControl\FormControl as Control;
 use Nette\Application\UI\Form;
-use app\Base\controls\FormControl\FormControl as Control;
 
 /**
  * IFormBuilder inteface

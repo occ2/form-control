@@ -23,7 +23,7 @@
  * THE SOFTWARE.
  */
 
-namespace app\Base\controls\FormControl\interfaces;
+namespace occ2\FormControl\interfaces;
 
 use Nette\Application\UI\Form;
 use Nette\Localization\ITranslator;

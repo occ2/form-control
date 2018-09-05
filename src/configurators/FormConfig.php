@@ -23,13 +23,11 @@
  * THE SOFTWARE.
  */
 
-namespace app\Base\controls\FormControl\configurators;
+namespace occ2\FormControl\configurators;
 
-use app\Base\controls\FormControl\FormControl;
-use app\Base\controls\Control\IConfigurator;
+use occ2\FormControl\FormControl;
+use occ2\control\IConfigurator;
 use Nette\Reflection\ClassType;
-use Nette\Utils\Strings;
-use Nette\Utils\ArrayHash;
 use Nette\DI\Config\Helpers;
 use Nette\Caching\Cache;
 

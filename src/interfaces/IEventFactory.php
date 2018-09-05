@@ -23,11 +23,11 @@
  * THE SOFTWARE.
  */
 
-namespace app\Base\controls\FormControl\interfaces;
+namespace occ2\FormControl\interfaces;
 
-use app\Base\controls\FormControl\events\FormEvent;
+use occ2\FormControl\events\FormEvent;
+use occ2\FormControl\FormControl as Control;
 use Nette\Forms\Container as Form;
-use app\Base\controls\FormControl\FormControl as Control;
 
 /**
  * IFactory inteface

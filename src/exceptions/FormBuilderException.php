@@ -23,7 +23,7 @@
  * THE SOFTWARE.
  */
 
-namespace app\Base\controls\FormControl\exceptions;
+namespace occ2\FormControl\exceptions;
 
 /**
  * FormBuilderException
