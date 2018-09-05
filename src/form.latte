@@ -1,0 +1,28 @@
+{if $simple==true}
+    {control form}
+{else}
+    {snippet form}
+        <div n:attr='id => $name' class="card {ifset $styles->size}{$styles->size}{else}w-100{/ifset}">
+            <div class="card-header {ifset $styles->headerBackground}{$styles->headerBackground}{else}light{/ifset}{ifset $styles->headerText}{$styles->headerText}{else}dark{/ifset}">
+                <h3 class="card-title">{ifset $title}{$title|translate}{/ifset}</h3>
+            </div>    
+            <div class="card-body">
+                {snippetArea flashes}
+                    {include '../../templates/flashes.latte'}
+                {/snippetArea}
+                    {ifset $comment}
+                        <p class="card-text">{$comment|translate}</p>
+                    {/ifset}
+                {control form}    
+            </div>
+            {ifset $footer}<div class="card-footer text-muted">{$footer|translate}</div>{/ifset}
+            {if !empty($links)}
+                <div class="card-footer text-muted">
+                    {foreach $links as $link}
+                        <a href="{plink $link->link}"{ifset $link->class} class="{$link->class}"{/ifset}>{$link->text|translate}</a>
+                    {/foreach}
+                </div>
+            {/if}
+        </div>    
+    {/snippet}
+{/if}
